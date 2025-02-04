@@ -3047,7 +3047,7 @@ hr {
   .cs_hero.cs_style_2 .cs_hero_image_box {
     width: 100%;
     height: initial;
-    padding-bottom: 140%;
+    padding-bottom: 0%;
   }
 }
 .cs_hero.cs_style_2 .cs_hero_image_box .cs_imagebox_img {
@@ -3061,9 +3061,35 @@ hr {
     top: 70px;
   }
   .cs_hero.cs_style_2 .cs_hero_image_box .cs_imagebox_img img {
-    max-height: 100%;
+    margin:0;
+        height: 40vh;
   }
 }
+@media screen and (max-width: 768px) {
+
+  .c
+
+  .cs_brand {
+    width: 100%;
+    max-width: 200px; /* Adjust as needed */
+    margin: 0 auto;
+  }
+
+  .cs_brand_logo {
+    height: 100px; /* Reduce image height */
+    width: 150px;
+     /* Adjust spacing */
+  }
+
+  .cs_brand_logo_wrap {
+    padding: 15px;
+  }
+
+  .cs_white_bg {
+    font-size: 14px; /* Adjust text size */
+  }
+}
+
 @-webkit-keyframes up_and_down {
   0% {
     -webkit-transform: translateY(-10px);
@@ -4248,8 +4274,9 @@ hr {
 }
 .cs_brands.cs_style_1 .cs_brand_logo_wrap {
   height: 120px;
-  padding: 18px;
+  padding: 0px;
 }
+
 @media (max-width: 1199px) {
   .cs_brands.cs_style_1 .cs_brand_logo_wrap {
     height: 100px;
@@ -4281,7 +4308,7 @@ hr {
 }
 
 .cs_brand_bg_2 {
-  background-color: #c2eec1;
+  background-color: #dcdfdc;
 }
 
 .cs_brand_bg_3 {
@@ -4293,7 +4320,7 @@ hr {
 }
 
 .cs_brand_bg_5 {
-  background-color: #ff3767;
+  background-color: #f7f2f3;
 }
 
 .cs_brand_bg_6 {

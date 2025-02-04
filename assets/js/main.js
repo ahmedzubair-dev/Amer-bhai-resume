@@ -27,6 +27,15 @@
   /*--------------------------------------------------------------
     Scripts initialization
   --------------------------------------------------------------*/
+
+  var typed = new Typed("#typing", {
+    strings: ["Software Engineer", "IT Support Engineer", "Web Developer", "AI Enthusiast"],
+    typeSpeed: 100,  // Speed of typing
+    backSpeed: 50,   // Speed of backspacing
+    backDelay: 1000, // Delay before backspacing
+    loop: true       // Loop the animation
+  });
+
   $.exists = function (selector) {
     return $(selector).length > 0;
   };
