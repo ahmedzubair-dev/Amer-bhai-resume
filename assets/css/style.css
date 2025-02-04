@@ -132,7 +132,7 @@ address {
 
 img {
   border: 0;
-  max-width: 96%;
+  max-width: 100%;
   height: auto;
 }
 
@@ -5318,33 +5318,3 @@ hr {
 }
 
 /*End Video Popup*//*# sourceMappingURL=style.css.map */
-
-/* new styling */
-.hero-description {
-  font-size: 18px;
-  font-weight: 500;
-  color: #333;
-  line-height: 1.6;
-  text-align: center;
-}
-
-.role {
-  color: #000; /* Default black color */
-  font-weight: bold;
-}
-
-.blue {
-  color: #007bff; /* Blue for alternate words */
-  font-weight: bold;
-}
-
-.default {
-  color: #333; /* Original color */
-  font-weight: bold;
-}
-
-.location {
-  color: #ff5733; /* Orange for location */
-  font-weight: bold;
-}
-
