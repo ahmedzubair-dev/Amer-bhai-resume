@@ -1568,9 +1568,16 @@ hr {
 }
 @media (max-width: 575px) {
   .cs_image_box.cs_style_1 .cs_happy_client {
-    bottom: 10%;
+    bottom: 100%;
     padding: 10px;
   }
+  .cs_image_box.cs_style_1 .cs_happy_client .cs_emoji_text {
+    font-size: 20px;
+  }
+  .cs_image_box.cs_style_1 .cs_happy_client .cs_font_16 {
+    line-height: 20px;
+  }
+  
 }
 .cs_image_box.cs_style_1 .cs_happy_client .cs_emoji_text {
   font-size: 35px;
@@ -1691,6 +1698,14 @@ hr {
   }
   .cs_title_search_wrap .cs_title {
     margin-bottom: 0;
+  }
+  .cs_gradient_text {
+    background: linear-gradient(147deg, #342ead 0%, #ff6d5a 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    color: transparent;
+    font-size: 20px;
   }
 }
 
@@ -2814,6 +2829,11 @@ hr {
   .cs_hero.cs_style_1 {
     height: initial;
   }
+  .cs_happy_client{
+    height: 20px;
+  }
+  
+  .nonamer{}
 }
 .cs_hero.cs_style_1 .cs_hero_box {
   display: -webkit-box;
@@ -2852,6 +2872,9 @@ hr {
   }
   .cs_hero.cs_style_1 .cs_hero_box img {
     max-width: 400px;
+  }
+  .cs_hero_title{
+    font-size: 30px;
   }
 }
 .cs_hero.cs_style_1 .cs_hero_box_in {
@@ -2969,6 +2992,7 @@ hr {
 @media (max-width: 991px) {
   .cs_hero.cs_style_2 .cs_hero_title {
     line-height: initial;
+    font-size: 25px;
   }
 }
 .cs_hero.cs_style_2 .cs_hero_title .cs_gradient_border_text {
@@ -3058,16 +3082,35 @@ hr {
 }
 @media (max-width: 1550px) {
   .cs_hero.cs_style_2 .cs_hero_image_box .cs_imagebox_img {
-    top: 70px;
+    top: 0px;
+    left: 80px;
   }
   .cs_hero.cs_style_2 .cs_hero_image_box .cs_imagebox_img img {
     margin:0;
-        height: 40vh;
+        height: 37vh;
   }
 }
 @media screen and (max-width: 768px) {
 
-  .c
+  .cs_hero.cs_style_2 .cs_hero_image_box .cs_happy_client {
+    right: 0px;
+    top: 30%;
+    height:18px;
+    background: linear-gradient(261deg, #fff -5.9%, #fff1ef 23.95%, #e0f0ff 160.95%);
+    -webkit-box-shadow: 1px 1px 2px 0px rgba(19, 16, 63, 0.1);
+            box-shadow: 1px 1px 2px 0px rgba(19, 16, 63, 0.1);
+    text-align: left;
+  }
+  .gradient_text{
+  font-size: 2px;
+}
+.cs_happy_client{
+  height: 10vh;
+} 
+  .cs_hero.cs_style_2 .cs_hero_text {
+    margin-top: 50px;
+    margin-bottom: 30px;
+  }
 
   .cs_brand {
     width: 100%;
@@ -3119,6 +3162,7 @@ hr {
           box-shadow: 1px 1px 2px 0px rgba(19, 16, 63, 0.1);
   text-align: left;
 }
+
 .cs_hero.cs_style_2 .cs_hero_image_box .cs_happy_client .cs_emoji_text {
   font-size: 35px;
 }
