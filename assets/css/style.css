@@ -45,7 +45,9 @@ html {
   font-weight: 400;
   line-height: 1.666em;
   overflow-x: hidden;
-  background-color: #f9fbff;
+  /* background-color: #f9fbff; */
+  background-image: url('img/bgimg.png');
+
 }
 
 h1,
@@ -1705,7 +1707,7 @@ hr {
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     color: transparent;
-    font-size: 20px;
+    font-size: 90px;
   }
 }
 
