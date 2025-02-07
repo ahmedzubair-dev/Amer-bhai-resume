@@ -47,20 +47,24 @@ export const navLinks = [
 
 const services = [
   {
-    title: 'Python Progamming',
+    title: 'Python Programming',
     icon: frontend,
+    link: 'https://example.com/python', // Add relevant links
   },
   {
     title: 'Power BI',
     icon: powerbi,
+    link: 'https://example.com/powerbi',
   },
   {
     title: 'Lean Six Sigma AI Yellow Belt',
     icon: ux,
+    link: 'https://example.com/sixsigma',
   },
   {
     title: 'AWS Solutions Architect',
     icon: prototyping,
+    link: 'https://example.com/aws',
   },
 ];
 

@@ -115,7 +115,7 @@ const Hero = () => {
                 display: 'flex', 
                 gap: '20px'
             }}>
-  <a href=''>
+  <a href='https://github.com/amer52432' target="_blank">
   <svg 
             xmlns="http://www.w3.org/2000/svg"
             className="h-7 w-7 social-icon"
@@ -147,7 +147,7 @@ const Hero = () => {
   </a>
    
 
-    <a href="" style={{ textDecoration: 'none' }}>
+    <a href="https://www.linkedin.com/in/amer-khan-790b70143/" target="_blank" style={{ textDecoration: 'none' }}>
         {/* Linkedin */}
         <svg
             xmlns="http://www.w3.org/2000/svg"
@@ -178,7 +178,7 @@ const Hero = () => {
         </svg>
     </a>
 
-    <a href="" style={{ textDecoration: 'none' }}>
+    <a href="https://www.instagram.com/amerkhan503/" target="_blank" style={{ textDecoration: 'none' }}>
         {/* Instagram */}
         <svg 
             xmlns="http://www.w3.org/2000/svg"
