@@ -8,7 +8,7 @@ import logotext from './logo/logo-text-black.png';
 
 import amer from './personal/amer.png';
 
-import backend from './icons/backend.png';
+import powerbi from './icons/powerbi.png';
 import ux from './icons/ux.png';
 import frontend from './icons/frontend.png';
 import prototyping from './icons/prototyping.png';
@@ -33,7 +33,7 @@ import mysql from './tech/mysql.png';
 import nodejs from './tech/nodejs.png';
 import visual from './tech/visual.png';
 import python from './tech/python.png';
-import tailwind from './tech/tailwind.png';
+import quick from './tech/quick.png';
 import lean from './tech/lean.jpg';
 import graphql from './tech/graphql.png';
 import postgresql from './tech/postgresql.png';
@@ -59,7 +59,7 @@ export {
   logo,
   logotext,
   amer,
-  backend,
+  powerbi,
   ux,
   frontend,
   prototyping,
@@ -86,7 +86,7 @@ export {
   rubyrails,
   visual,
   python,
-  tailwind,
+  quick,
   lean,
   komikult,
   leaderboard,

@@ -1,6 +1,6 @@
 import {
   frontend,
-  backend,
+  powerbi,
   ux,
   prototyping,
   mysql,
@@ -10,7 +10,7 @@ import {
   power,
   visual,
   python,
-  tailwind,
+  quick,
   nodejs,
   git,
   figma,
@@ -47,15 +47,15 @@ export const navLinks = [
 
 const services = [
   {
-    title: 'Automation',
+    title: 'Python Progamming',
     icon: frontend,
   },
   {
-    title: 'Power BI Certification',
-    icon: backend,
+    title: 'Power BI',
+    icon: powerbi,
   },
   {
-    title: 'Lean Six Sigma AI Yellow Belt certification',
+    title: 'Lean Six Sigma AI Yellow Belt',
     icon: ux,
   },
   {
@@ -82,16 +82,16 @@ const technologies = [
     icon: lean,
   },
   {
-    name: 'React JS',
+    name: 'Visual basics',
     icon: visual,
   },
   {
-    name: 'Redux Toolkit',
+    name: 'Python',
     icon: python,
   },
   {
-    name: 'Tailwind CSS',
-    icon: tailwind,
+    name: 'Quick Sight',
+    icon: quick,
   },
   // {
   //   name: 'Node JS',
