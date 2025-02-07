@@ -5,8 +5,33 @@
     <link rel="icon" type="image/svg+xml" href="/src/assets/logo/logo-black.png" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <title>Amer | Portfolio</title>
+    <style>
+      /* Custom scrollbar */
+::-webkit-scrollbar {
+  width: 10px; /* Width of the scrollbar */
+  display: none;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: #111111; /* Dark track background */
+  border-radius: 10px;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #2b2b2c; /* Handle color */
+  border-radius: 10px;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #39393a; /* Lighter handle color on hover */
+}
+
+    </style>
   </head>
-  <body class="bg-night">
+  <body class="bg-night" >
     <div id="root"></div>
     <script type="module" src="/src/main.jsx"></script>
   </body>

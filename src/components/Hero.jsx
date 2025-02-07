@@ -61,14 +61,14 @@ const Hero = () => {
   return (
     <>
       
-      <div className="absolute top-0 left-0 z-0 h-[100vh]  w-[198.8vh]  overflow-x-hidden" >
+      <div className="absolute top-0 left-0 z-0 h-[100vh]  w-screen  overflow-x-hidden" >
       <img
   src={bwmap}
   alt="world map"
   className="w-full h-full object-cover overflow-hidden"
 />
       </div>
-      <div className="absolute top-0 left-0 z-0 h-[100vh] w-[198.8vh]">
+      <div className="absolute top-0 left-0 z-0 h-[100vh] w-full">
         <img
           src={worldmap}
           alt="world map"
