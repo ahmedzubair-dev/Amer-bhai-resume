@@ -43,11 +43,11 @@ const TypingText = ({ texts }) => {
       style={{
         display: 'block',
         marginTop: '1rem',
-        fontSize: '1.5rem',
+        fontSize: '2.4em',
         fontWeight: 'bold',
         width: 'auto'
       }}
-      className="text-eerieBlack font-mova font-bold uppercase"
+      className="bg-[linear-gradient(to_right,#000000,#808080,#808080)] text-transparent bg-clip-text font-mova font-bold uppercase"
     >
       {currentText}
     </span>
@@ -106,11 +106,11 @@ const Hero = () => {
                 'Software Engineer',
               ]}
             />
-            <p className={`${styles.heroSubText} mt-2 text-eerieBlack`}>
+            {/* <p className={`${styles.heroSubText} mt-2 text-eerieBlack`}>
             I am a versatile IT Support Engineer {' '}
               <br className="sm:block hidden" />
               consectetur adipisicing elit deleniti, voluptas.
-            </p>
+            </p> */}
           </div>
 
           {/* Scroll Indicator */}
