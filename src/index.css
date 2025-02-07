@@ -35,7 +35,7 @@
   box-sizing: border-box;
   scroll-behavior: smooth;
   color-scheme: dark;
-  /* overflow-x: hidden ; */
+  /* overflow: hidden ; */
 }
 
 .nav-links::after {

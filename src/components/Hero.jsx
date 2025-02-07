@@ -54,23 +54,25 @@ const TypingText = ({ texts }) => {
   );
 };
 
+
+
 // Hero Component
 const Hero = () => {
   return (
     <>
-      {/* Background Image */}
-      <div className="absolute top-0 left-0 z-0 h-[100vh] w-screen">
-        <img
-          src={bwmap}
-          alt="world map"
-          className="w-full h-full sm:block hidden object-cover"
-        />
+      
+      <div className="absolute top-0 left-0 z-0 h-[100vh]  w-[198.8vh]  overflow-x-hidden" >
+      <img
+  src={bwmap}
+  alt="world map"
+  className="w-full h-full object-cover overflow-hidden"
+/>
       </div>
-      <div className="absolute top-0 left-0 z-0 h-[100vh] w-screen">
+      <div className="absolute top-0 left-0 z-0 h-[100vh] w-[198.8vh]">
         <img
           src={worldmap}
           alt="world map"
-          className="w-full h-full sm:hidden block object-cover"
+          className="w-full h-full  overflow-hidden"
         />
       </div>
 
@@ -142,13 +144,12 @@ const Hero = () => {
 
         {/* Profile Image */}
         <div>
-          <img
-            className="absolute bottom-0 ml-[50vw] 
-            lg:ml-[70vw] md:ml-[60vw] xmd:ml-[60vw] 2xl:ml-[70vw]
-            sm:h-[90vh] md:h-[70vh] xl:h-[80vh]"
-            src={amer} 
-            alt="profile"
-          />
+        <img
+  className="absolute bottom-0 right-0 sm:h-[90vh] md:h-[70vh] xl:h-[80vh] mx-auto"
+  src={amer} 
+  alt="profile"
+/>
+
         </div>
       </section>
     </>
