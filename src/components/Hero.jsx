@@ -2,7 +2,7 @@ import { motion } from 'framer-motion';
 import { Link } from 'react-router-dom';
 import { styles } from '../styles';
 import { navLinks } from '../constants';
-import { shaq, bwmap, worldmap } from '../assets';
+import { amer, bwmap, worldmap } from '../assets';
 import React, { useState, useEffect } from 'react';
 
 // Typing Animation Logic
@@ -146,7 +146,7 @@ const Hero = () => {
             className="absolute bottom-0 ml-[50vw] 
             lg:ml-[70vw] md:ml-[60vw] xmd:ml-[60vw] 2xl:ml-[70vw]
             sm:h-[90vh] md:h-[70vh] xl:h-[80vh]"
-            src="/Main.png" 
+            src={amer} 
             alt="profile"
           />
         </div>

@@ -6,7 +6,7 @@ import worldmap from './backgrounds/world-map.png';
 import logo from './logo/logo-black.png';
 import logotext from './logo/logo-text-black.png';
 
-import shaq from './personal/shaq.png';
+import amer from './personal/amer.png';
 
 import backend from './icons/backend.png';
 import ux from './icons/ux.png';
@@ -23,17 +23,18 @@ import resume from './icons/resume.png';
 import send from './icons/send.png';
 import sendHover from './icons/sendHover.png';
 
-import css from './tech/css.png';
+import power from './tech/power.png';
 import docker from './tech/docker.png';
 import figma from './tech/figma.png';
 import git from './tech/git.png';
 import html from './tech/html.png';
-import javascript from './tech/javascript.png';
+import aws from './tech/aws.png';
+import mysql from './tech/mysql.png';
 import nodejs from './tech/nodejs.png';
-import reactjs from './tech/reactjs.png';
-import redux from './tech/redux.png';
+import visual from './tech/visual.png';
+import python from './tech/python.png';
 import tailwind from './tech/tailwind.png';
-import typescript from './tech/typescript.png';
+import lean from './tech/lean.jpg';
 import graphql from './tech/graphql.png';
 import postgresql from './tech/postgresql.png';
 import rubyrails from './tech/rubyrails.png';
@@ -57,7 +58,7 @@ export {
   worldmap,
   logo,
   logotext,
-  shaq,
+  amer,
   backend,
   ux,
   frontend,
@@ -72,20 +73,21 @@ export {
   resume,
   send,
   sendHover,
-  css,
+  power,
   docker,
   figma,
   git,
   graphql,
   html,
-  javascript,
+  aws,
+  mysql,
   nodejs,
   postgresql,
   rubyrails,
-  reactjs,
-  redux,
+  visual,
+  python,
   tailwind,
-  typescript,
+  lean,
   komikult,
   leaderboard,
   math,

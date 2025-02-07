@@ -3,12 +3,13 @@ import {
   backend,
   ux,
   prototyping,
-  javascript,
-  typescript,
+  mysql,
+  lean,
   html,
-  css,
-  reactjs,
-  redux,
+  aws,
+  power,
+  visual,
+  python,
   tailwind,
   nodejs,
   git,
@@ -66,60 +67,60 @@ const services = [
 const technologies = [
   {
     name: 'HTML 5',
-    icon: html,
+    icon: aws,
   },
   {
     name: 'CSS 3',
-    icon: css,
+    icon: power,
   },
   {
     name: 'JavaScript',
-    icon: javascript,
+    icon: mysql,
   },
   {
     name: 'TypeScript',
-    icon: typescript,
+    icon: lean,
   },
   {
     name: 'React JS',
-    icon: reactjs,
+    icon: visual,
   },
   {
     name: 'Redux Toolkit',
-    icon: redux,
+    icon: python,
   },
   {
     name: 'Tailwind CSS',
     icon: tailwind,
   },
-  {
-    name: 'Node JS',
-    icon: nodejs,
-  },
-  {
-    name: 'Rails',
-    icon: rubyrails,
-  },
-  {
-    name: 'graphql',
-    icon: graphql,
-  },
-  {
-    name: 'postgresql',
-    icon: postgresql,
-  },
-  {
-    name: 'git',
-    icon: git,
-  },
-  {
-    name: 'figma',
-    icon: figma,
-  },
-  {
-    name: 'docker',
-    icon: docker,
-  },
+  // {
+  //   name: 'Node JS',
+  //   icon: nodejs,
+  // },
+  // {
+  //   name: 'Rails',
+  //   icon: rubyrails,
+  // },
+  // {
+  //   name: 'graphql',
+  //   icon: graphql,
+  // },
+  // {
+  //   name: 'postgresql',
+  //   icon: postgresql,
+  // },
+  // {
+  //   name: 'git',
+  //   icon: git,
+  // },
+  // {
+  //   name: 'figma',
+  //   icon: figma,
+  // },
+  // {
+  //   name: 'docker',
+  //   icon: docker,
+  // },
 ];
 
 const experiences = [
