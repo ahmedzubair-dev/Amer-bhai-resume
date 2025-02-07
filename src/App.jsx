@@ -18,7 +18,11 @@ const App = () => {
           <Hero />
         </div>
 
-        <div className="bg-about bg-cover bg-center bg-no-repeat">
+        <div className="bg-about bg-cover bg-center bg-no-repeat"  style={{
+        backgroundImage: "url('https://www.unkey.com/_next/static/media/mainboard.3b0c4395.svg')",
+        minHeight: '100vh', 
+        width:'auto', // Ensure the background covers the full viewport height
+      }}>
           <About />
         </div>
 

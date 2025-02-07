@@ -115,7 +115,7 @@ const Hero = () => {
                 display: 'flex', 
                 gap: '20px'
             }}>
-  <a href='https://github.com/amer52432' target="_blank">
+  <a href='' target="_blank">
   <svg 
             xmlns="http://www.w3.org/2000/svg"
             className="h-7 w-7 social-icon"
